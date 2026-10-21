@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+package-lock.json
+
+# 本地临时文件
+*.log
+prompt.txt
+.tmp/
+
+# 凭据类，绝不入库
+.env
+.env.*
+*.key
+.credentials.yaml
